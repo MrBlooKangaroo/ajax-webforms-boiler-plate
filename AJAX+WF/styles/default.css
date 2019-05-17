@@ -1,0 +1,60 @@
+﻿
+#MainContent_ddLGender {
+    font-family: monospace;
+    color: blueviolet;
+    font-size: 1rem;
+    border-radius: 10%;
+    padding: 0.4rem;
+    margin: 1rem;
+    margin-bottom: 3rem;
+}
+
+#MainContent_stickPerson {
+    height: 20rem;
+    width: auto;
+}
+
+#loadingDiv {
+    margin: auto;
+    display: block; 
+    position: page;
+    top: 2rem;
+}
+
+#loadingGif {
+    height: 3.5rem;
+    width: auto;
+}
+
+.link-to-page {
+    font-family: monospace;
+    color: blueviolet;
+    text-decoration: none;
+    border-radius: 9%;
+    padding: 1rem;
+    font-size: 1.1rem;
+    text-shadow: 0 -1px 1px blueviolet;
+    box-shadow: hotpink 5px 5px, #03A9F4 5px 5px inset, 
+                #03A9F4 7px 7px, hotpink 7px 7px inset;
+}
+
+    .link-to-page:hover {
+        color: #03A9F4;
+        text-shadow: 0 -1px 1px #03A9F4;
+        box-shadow: #03A9F4 5px 5px, hotpink 5px 5px inset, 
+                    hotpink 7px 7px, #03A9F4 7px 7px inset;
+    }
+
+    .link-to-page:active {   
+        color: hotpink;
+        padding: 0.8rem;
+        text-shadow: 0 -1px 1px hotpink;
+        box-shadow: #03A9F4 3.5px 3.5px, hotpink 3.5px 3.5px inset, 
+                    hotpink 5px 5px, #03A9F4 5px 5px inset;
+    }
+
+
+#MainContent_linkToCreatures {
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}

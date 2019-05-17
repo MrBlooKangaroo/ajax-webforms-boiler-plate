@@ -1,0 +1,68 @@
+﻿
+.hidden {
+    visibility: hidden;
+}
+
+.visible {
+    visibility: visible;
+}
+
+#creatureQuestion {
+    font-size: 4rem;
+    margin-bottom: 3rem;
+}
+
+table tr {
+    display: table-cell;
+}
+
+#MainContent_creatureRadioList {
+    margin: 4rem auto;
+}
+
+#MainContent_creatureRadioList > tbody > tr > td > label {
+    font-size: 2rem;
+    margin: 2rem;
+}
+
+#imageDiv {
+    height: 25rem;
+    width: auto;
+}
+
+#soundDiv {
+    display: block;
+    font-size: 1rem;
+    left: 30rem;
+    top: -23rem;
+}   
+
+.speech-wrapper {
+    width: 300px;
+    margin: 50px auto;
+    border-radius: 15px;
+    background: rgb(155, 224, 255);
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    font-weight: 900;
+    font-family: arial;
+    position: relative;
+    text-shadow: 3px 3px 3px black;
+    box-shadow: hotpink 5px 5px, #03A9F4 5px 5px inset, #03A9F4 7px 7px, hotpink 7px 7px inset;
+}
+
+
+.speech-bubble:before {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-left: 15px solid transparent;
+    border-right: 15px solid #a9ffff;
+    border-top: 15px solid #a9ffff;
+    border-bottom: 15px solid transparent;
+    left: -21px;
+    top: 4px;
+    z-index: -1;
+}   
